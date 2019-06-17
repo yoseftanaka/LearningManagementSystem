@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+
+.menu{
+	position: fixed;
+	padding: 20px;
+	width: 10%;
+	height: 100%;
+	background-color: #47ef41;
+	float: left;
+}
+.menu a{
+	font-size: 20px;
+	margin-bottom: 15%;
+	padding-top: 20px;
+	color: #faf6f6;
+	text-decoration: none;
+	display: block;
+	
+}
+.menu #h3_1{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #707070;
+	text-align: center;
+	font-size: 35px;
+	
+}
+.menu #h4_1{
+	margin-top: 10px;
+	margin-bottom: 10px;  
+	color: #707070; 
+	text-align: center;
+	font-size: 25px;
+	                                                                                    
+}
+.menu #h2_1{
+	margin-bottom: 20px;
+	color: #54c350;
+	font-size: 15px;
+	text-align: center;
+}
+.menu a:hover{
+	color: grey;
+}
+.word{
+	position: fixed;
+	float: left;
+	left: 15%;
+	width: 20%;
+}
+.word #h3_2{
+	font-size: 45px;
+	margin-top: 45%;
+	color: #707070;
+	margin-left: 20%;
+}
+.contain{
+	background-color:#fffcfc;
+	width: 1000px;
+	margin-left: 20%;
+	display: flex;
+	border:1px solid black;
+
+}
+.contain ul{
+	margin: 15px; 
+	padding: 0px;		
+}
+.contain ul li{
+	padding: 2em;
+	list-style: none;
+	background-color: #f7efef;
+	width: 75%;
+	margin:15px;
+	border: 1px solid black;
+	
+}
+.contain ul li span{
+	display: block;
+	font-size: 1.4em;
+	margin-bottom: 1em;
+	border-bottom: 1px solid #e1dada;
+	border-width: 1.5px;
+	color: #707070;
+}
+h4{
+	font-size: 20px;
+	color: #707070;
+}
+.pengajar{
+	border-bottom: 1px solid #e1dada;
+	border-width: 1.5px;
+	font-size: 20px;
+	color: #707070;
+}
+
+.btn{
+	border:none;
+	background-color: #187FF4;
+	margin-top: 5px;
+}
+i{
+	color: white;
+	padding: 2px;
+
+}
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+	background-color: #fefefe;
+	margin:auto;
+	padding: 20px;
+	width: 30%;
+}
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+.close:hover, .close:focus{
+	color: #000;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+.modal-header{
+	padding: 2px 16px;
+	background-color: #5ab6;
+	color: white;
+}
+.modal-body{padding: 2px 16px;}
+.member{
+	padding-top: 2px;
+	font-size: 15px;
+	display: flex;
+	float: right;
+}
+
